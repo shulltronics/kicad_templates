@@ -1,0 +1,185 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Shulltronics_Connectors_3085_MiniJack_Thonk_Vert
+#
+DEF Shulltronics_Connectors_3085_MiniJack_Thonk_Vert J 0 40 Y Y 1 F N
+F0 "J" 0 -200 50 H V C CNN
+F1 "Shulltronics_Connectors_3085_MiniJack_Thonk_Vert" 50 -300 50 H I C CNN
+F2 "Shulltronics_Connectors:3085_MiniJack_Thonk_Vert" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3085" 0 250 50 H I C CNN "SPN"
+DRAW
+S -100 50 -150 -50 1 1 10 F
+S 100 200 -100 -150 1 1 10 f
+P 2 1 1 0 70 40 80 20 N
+P 4 1 1 10 0 50 25 25 50 50 100 50 N
+P 4 1 1 0 100 -50 70 -50 70 40 60 20 N
+P 5 1 1 10 100 150 -25 150 -25 50 -50 25 -75 50 N
+X S S 200 150 100 L 50 50 1 1 P
+X T T 200 50 100 L 50 50 1 1 P
+X TN TN 200 -50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Connectors_3086_Connector_Eurorack_Power
+#
+DEF Shulltronics_Connectors_3086_Connector_Eurorack_Power J 0 40 Y N 1 F N
+F0 "J" 0 -300 50 H V C CNN
+F1 "Shulltronics_Connectors_3086_Connector_Eurorack_Power" 50 400 50 H I C CNN
+F2 "Shulltronics_Connectors:3086_SMD_Eurorack_Power" 0 -50 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "3086" 0 -50 50 H I C CNN "SPN"
+DRAW
+S 100 250 -100 -250 0 1 0 f
+S -100 -195 -50 -205 1 1 6 N
+S -100 -95 -50 -105 1 1 6 N
+S -100 5 -50 -5 1 1 6 N
+S -100 105 -50 95 1 1 6 N
+S -100 205 -50 195 1 1 6 N
+S 100 -195 50 -205 1 1 6 N
+S 100 -95 50 -105 1 1 6 N
+S 100 5 50 -5 1 1 6 N
+S 100 105 50 95 1 1 6 N
+S 100 205 50 195 1 1 6 N
+X Pin_1 1 -250 200 150 R 50 50 1 1 P
+X Pin_10 10 250 -200 150 L 50 50 1 1 P
+X Pin_2 2 250 200 150 L 50 50 1 1 P
+X Pin_3 3 -250 100 150 R 50 50 1 1 P
+X Pin_4 4 250 100 150 L 50 50 1 1 P
+X Pin_5 5 -250 0 150 R 50 50 1 1 P
+X Pin_6 6 250 0 150 L 50 50 1 1 P
+X Pin_7 7 -250 -100 150 R 50 50 1 1 P
+X Pin_8 8 250 -100 150 L 50 50 1 1 P
+X Pin_9 9 -250 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear
+#
+DEF Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear RP 0 40 Y N 1 F N
+F0 "RP" -250 100 50 H V C CNN
+F1 "Shulltronics_ElectroMechanical_3087_Potentiometer_10k_Linear" 450 -150 50 H I C CNN
+F2 "Shulltronics_ElectroMechanical:3087_Potentiometer_10k" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3087" 0 0 50 H I C CNN "SPN"
+F5 "10k" -100 0 50 V V C CNN "Val"
+DRAW
+S 40 100 -40 -100 1 1 10 N
+P 2 1 1 0 100 0 60 0 N
+P 4 1 1 0 45 0 90 20 90 -20 45 0 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Opto_3023_FSD
+#
+DEF Shulltronics_Opto_3023_FSD FSD 0 40 Y Y 1 F N
+F0 "FSD" -50 800 50 H V C CNN
+F1 "Shulltronics_Opto_3023_FSD" 0 -800 50 H I C CNN
+F2 "Shulltronics_Opto:3023_14seg_Display" 0 900 50 H I C CNN
+F3 "" -150 -650 50 V I C CNN
+DRAW
+S 200 750 -200 -750 0 1 0 N
+X p 1 300 700 100 L 50 50 1 1 I
+X a 10 300 -200 100 L 50 50 1 1 I
+X b 11 300 -300 100 L 50 50 1 1 I
+X k 12 300 -400 100 L 50 50 1 1 I
+X j 13 300 -500 100 L 50 50 1 1 I
+X CA 14 -300 0 100 R 50 50 1 1 I
+X h 15 300 -600 100 L 50 50 1 1 I
+X f 16 300 -700 100 L 50 50 1 1 I
+X n 2 300 600 100 L 50 50 1 1 I
+X m 3 300 500 100 L 50 50 1 1 I
+X l 4 300 400 100 L 50 50 1 1 I
+X DP 5 300 300 100 L 50 50 1 1 I
+X c 6 300 200 100 L 50 50 1 1 I
+X d 7 300 100 100 L 50 50 1 1 I
+X e 8 300 0 100 L 50 50 1 1 I
+X g 9 300 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Passives_3088_Capacitor_10u_50V_SMD
+#
+DEF Shulltronics_Passives_3088_Capacitor_10u_50V_SMD C 0 40 N N 1 F N
+F0 "C" 0 0 50 H V C CNN
+F1 "Shulltronics_Passives_3088_Capacitor_10u_50V_SMD" 0 0 50 H I C CNN
+F2 "Shulltronics_Passives:3088_Capacitor_10u_50V_SMD" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3088" 0 0 50 H I C CNN "SPN"
+F5 "10u" 0 0 50 H V C CNN "Val"
+DRAW
+A 0 -150 128 1287 513 1 1 20 N -80 -50 80 -50
+P 2 1 1 20 -80 30 80 30 N
+P 2 1 1 0 30 90 70 90 N
+P 2 1 1 0 50 70 50 110 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Passives_3089_Capacitor_100n_16V_SMD
+#
+DEF Shulltronics_Passives_3089_Capacitor_100n_16V_SMD C 0 40 N N 1 F N
+F0 "C" -50 150 50 H V C CNN
+F1 "Shulltronics_Passives_3089_Capacitor_100n_16V_SMD" 0 0 50 H I C CNN
+F2 "Shulltronics_Generics:C_0402_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "3089" 0 0 50 H I C CNN "SPN"
+F5 "100n" 150 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 0 -50 -100 -50 100 N
+P 2 1 1 0 0 -50 0 -100 N
+P 2 1 1 0 0 50 0 -50 N
+P 2 1 1 0 0 50 0 100 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Sch_Symbols_GND
+#
+DEF Shulltronics_Sch_Symbols_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Shulltronics_Sch_Symbols_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Sch_Symbols_VCC
+#
+DEF Shulltronics_Sch_Symbols_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Shulltronics_Sch_Symbols_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Shulltronics_Sch_Symbols_VSS
+#
+DEF Shulltronics_Sch_Symbols_VSS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Shulltronics_Sch_Symbols_VSS" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 0 0 100 N
+P 4 0 1 0 30 50 -30 50 0 100 30 50 F
+X VSS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
